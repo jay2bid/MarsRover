@@ -1,14 +1,16 @@
 namespace MarsRoverService.Tests;
 
-public class Tests
+public class RoverShould
 {
+    private Rover _rover;
     [SetUp]
     public void Setup()
     {
+        _rover = new Rover();
     }
 
     [Test]
-    public void Test1()
+    public void RoverShouldSpinLet()
     {
         Assert.Pass();
     }
